@@ -328,8 +328,6 @@ evaluate_session_answers(session_id=1)
 ### prompts.py — Система промптов
 
 Содержит три типа промптов:
-<img width="775" height="388" alt="Схема" src="https://github.com/user-attachments/assets/4c7cf134-aefe-4103-a064-102648e6463e" />
-
 
 | Функция | Назначение |
 |---------|------------|
@@ -346,16 +344,8 @@ evaluate_session_answers(session_id=1)
 - Экспорт результатов в Excel
 
 **Схема базы данных:**
+<img width="775" height="388" alt="Схема" src="https://github.com/user-attachments/assets/79d55334-2cc1-4227-9f5c-aef6e8cfafd0" />
 
-```sql
-candidates (id, full_name, email, created_at)
-    │
-    └── sessions (id, candidate_id, total_score)
-            │
-            └── answers (id, session_id, task_id, raw_answer)
-                    │
-                    └── evaluations (id, answer_id, score, feedback, strengths, weaknesses, recommendation)
-```
 
 ### file_to_json_converter.py — Конвертер файлов
 
