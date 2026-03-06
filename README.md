@@ -328,6 +328,8 @@ evaluate_session_answers(session_id=1)
 ### prompts.py — Система промптов
 
 Содержит три типа промптов:
+<img width="775" height="388" alt="Схема" src="https://github.com/user-attachments/assets/4c7cf134-aefe-4103-a064-102648e6463e" />
+
 
 | Функция | Назначение |
 |---------|------------|
